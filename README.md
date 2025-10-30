@@ -1,3 +1,20 @@
-# diyrobot
-# diyrobot-calibration
-# diy
+# ขั้นตอนการทำงานของระบบ
+
+กระบวนการปรับจูนและพัฒนาเฟิร์มแวร์ของหุ่นยนต์มีขั้นตอนดังนี้:
+
+1. **Calibration ด้วย L298N Module**  
+   ทำการปรับจูนมอเตอร์ให้หมุนไปในทิศทางที่ถูกต้องตามแกนมาตรฐานของหุ่นยนต์  
+   โดยใช้ **PlatformIO** ในการอัปโหลดโค้ดลงบนบอร์ด **ESP32** เพื่อให้ระบบมอเตอร์ทำงานได้อย่างแม่นยำตามมาตรฐานสากล
+
+2. **อัปโหลด Firmware_noimu ลงบอร์ด ESP32**  
+   หลังจากการปรับจูนเสร็จสิ้น ให้ทำการอัปโหลดไฟล์ **`Firmware_noimu`**  
+   เพื่อเชื่อมต่อกับระบบ **micro-ROS** สำหรับการสื่อสารกับ ROS2
+
+3. **รัน teleop keyboard เพื่อควบคุมหุ่นยนต์**  
+   ใช้คำสั่งต่อไปนี้เพื่อควบคุมการเคลื่อนที่ของหุ่นยนต์ผ่านคีย์บอร์ด:
+   ```bash
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard
+4. **ทำการลง framework linorobot2**
+   ```bash
+   git clone -b humble https://github.com/linorobot/linorobot2.git
+
