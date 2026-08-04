@@ -20,7 +20,7 @@
    git clone -b humble https://github.com/linorobot/linorobot2.git
 
 <br>
-<h3 align="center">📸 รูปภาพผลงานและการทดสอบระบบ (Demonstration)</h3>
+<h3 align="center">รูปภาพผลงานและการทดสอบระบบ (Demonstration)</h3>
 <br>
 <div align="center">
   <table width="100%">
