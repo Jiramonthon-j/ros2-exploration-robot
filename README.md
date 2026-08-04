@@ -1,3 +1,4 @@
+
 # ขั้นตอนการทำงานของระบบ
 
 กระบวนการปรับจูนและพัฒนาเฟิร์มแวร์ของหุ่นยนต์มีขั้นตอนดังนี้:
@@ -18,3 +19,29 @@
    ```bash
    git clone -b humble https://github.com/linorobot/linorobot2.git
 
+<br>
+<h3 align="center">📸 รูปภาพผลงานและการทดสอบระบบ (Demonstration)</h3>
+<br>
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td align="center" width="33%" valign="top">
+        <img height="260" alt="Actual Robot Prototype" src="https://github.com/user-attachments/assets/26dc39b0-cacc-4a80-b088-045dc406d707" />
+        <br>
+        <sub><i>Actual Robot Prototype</i></sub>
+      </td>
+      <td align="center" width="33%" valign="top">
+        <img height="260" alt="Real Robot Test" src="https://github.com/user-attachments/assets/d39d7bfa-ddfa-4c18-951d-14b000701ea7" />
+        <br>
+        <sub><i>Real Robot Test: Controlling actual robot movement via teleop keyboard in ROS 2</i></sub>
+      </td>
+      <td align="center" width="33%" valign="middle">
+        <h4>📁 คลังรูปภาพและคลิปเพิ่มเติม</h4>
+        <p>ดูรูปถ่ายและวิดีโอการทดสอบทั้งหมดได้ที่:</p>
+        <a href="https://drive.google.com/drive/u/1/folders/1T3-4MkC7d6NUzJjEYTvIWPL26tQI5V4o" target="_blank">
+          <img src="https://img.shields.com/badge/Google_Drive-View_Media_Folder-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
