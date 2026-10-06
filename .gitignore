@@ -1,0 +1,8 @@
+# PlatformIO build output & editor files
+.pio/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local WiFi credentials (keep real values out of git)
+config/custom/wifi_config.h
